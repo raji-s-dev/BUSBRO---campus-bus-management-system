@@ -150,29 +150,7 @@ This makes the system highly scalable and financially sustainable for educationa
 
 ---
 
-# 📁 Repository Structure (Current)
 
-
-busbro-system/
-├── adminpanel/ # React Admin Dashboard
-├── backend/ # Node.js API Server
-├── routebuilder/ # Route & Map Management
-├── livelocationtest/ # Real-time location service
-
-
-Student App and Driver App are documented separately.
-
----
-
-# 🎯 Future Scope
-
-- AI-based delay prediction
-- Heatmap-based route optimization
-- Bus occupancy analytics
-- Smart QR-based student boarding
-- Push notification integration
-
----
 
 # 📌 Project Status
 
