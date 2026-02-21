@@ -53,27 +53,7 @@ Each application is purpose-built to automate workflows, reduce stress, and impr
 
 # 🧩 System Architecture Overview
 
-             ┌──────────────────────┐
-             │     Ubuntu Server    │
-             │  (Self-Hosted Infra) │
-             └──────────┬───────────┘
-                        │
-  ┌─────────────────────┼─────────────────────┐
-  │                     │                     │
-
-Admin Panel Student App Driver App
-(React.js) (Flutter) (Flutter)
-│ │ │
-└────────────── REST API (Node.js) ─────────┘
-│
-PostgreSQL DB
-│
-OpenRouteService (ETA Engine)
-│
-OpenFreeMap (Map Tile Server)
-│
-WebSocket (Live Tracking)
-
+![System Architecture](docs/system-architecture.png)
 
 ---
 
